@@ -1,0 +1,602 @@
+[
+  {
+    "name": "What is the purpose of the 'var' keyword in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "To create a new scope",
+      "B": "To update the value of an existing variable",
+      "C": "To declare a variable with function scope",
+      "D": "To declare a constant value"
+    }
+  },
+  {
+    "name": "What is a closure in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "An error that occurs when a function cannot access its outer scope",
+      "B": "A function that has access to its own scope, the outer function’s scope, and the global scope",
+      "C": "A type of JavaScript function that automatically closes after its execution",
+      "D": "A method used to close all running applications in an environment"
+    }
+  },
+  {
+    "name": "What does 'this' keyword refer to in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "The current function",
+      "B": "The current loop",
+      "C": "The current event",
+      "D": "The current execution context"
+    }
+  },
+  {
+    "name": "What does the 'typeof' operator return in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "A string indicating the type of the unevaluated operand",
+      "B": "The function type of the operand",
+      "C": "The integer representing the type ID",
+      "D": "The value of the operand"
+    }
+  },
+  {
+    "name": "Which method is used to serialize an object into a JSON string in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "JSON.parse()",
+      "B": "JSON.stringify()",
+      "C": "JSON.toObject()",
+      "D": "JSON.fromString()"
+    }
+  },
+  {
+    "name": "What is the difference between '==' and '===' in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "'==' compares values after type conversion, '===' compares both value and type without conversion",
+      "B": "'==' compares only the type, '===' compares only the value",
+      "C": "There is no difference between the two operators",
+      "D": "'==' is used strictly in functions, while '===' is used in loops"
+    }
+  },
+  {
+    "name": "How do you add an element at the beginning of an array in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "push()",
+      "B": "pop()",
+      "C": "unshift()",
+      "D": "shift()"
+    }
+  },
+  {
+    "name": "Which object is the top-level object in a browser environment?",
+    "correctOption": "D",
+    "options": {
+      "A": "Document",
+      "B": "Window",
+      "C": "Screen",
+      "D": "Window"
+    }
+  },
+  {
+    "name": "What does the 'addEventListener' method do in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "Removes a specified event handler",
+      "B": "Attaches an event handler to the specified element",
+      "C": "Creates a new HTML element",
+      "D": "Updates an existing event handler"
+    }
+  },
+  {
+    "name": "What is the purpose of the 'Array.map()' method in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "It creates a new array populated with the results of calling a provided function on every element in the calling array.",
+      "B": "It calls a function for each element in the array.",
+      "C": "It merges two or more arrays.",
+      "D": "It checks if at least one element in the array passes a test."
+    }
+  },
+  {
+    "name": "What method is used to round a number to the nearest integer in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "Math.roundDown()",
+      "B": "Math.round()",
+      "C": "Math.floor()",
+      "D": "Math.ceil()"
+    }
+  },
+  {
+    "name": "How can you convert a string to an integer in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "parseInt()",
+      "B": "Number.parse()",
+      "C": "toInt()",
+      "D": "String.int()"
+    }
+  },
+  {
+    "name": "What is the event loop in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "A programming construct that waits for and dispatches events or messages in a program",
+      "B": "A loop that continuously polls an event queue",
+      "C": "A method to execute asynchronous functions",
+      "D": "A process that allows JavaScript to perform non-blocking operations by offloading operations to the system kernel"
+    }
+  },
+  {
+    "name": "What does the 'break' statement do in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "Pauses the execution of the function",
+      "B": "Breaks the link between two variables",
+      "C": "Terminates the current loop, switch, or label statement and transfers control to the statement following the terminated statement",
+      "D": "Exits the current function and returns a value"
+    }
+  },
+  {
+    "name": "What is the output of '2 + '2' in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "'22'",
+      "B": "4",
+      "C": "NaN",
+      "D": "Error"
+    }
+  },
+  {
+    "name": "What does the 'delete' operator do in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "Deletes variables from the program",
+      "B": "Deletes a property from an object",
+      "C": "Removes all references to an object",
+      "D": "Clears the memory occupied by an object"
+    }
+  },
+  {
+    "name": "How do you copy an object in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "Object.assign()",
+      "B": "Object.copy()",
+      "C": "Copy.object()",
+      "D": "Object.clone()"
+    }
+  },
+  {
+    "name": "What does the 'continue' statement do in a loop in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "Stops the loop completely",
+      "B": "Continues to the next statement outside the loop",
+      "C": "Pauses the loop",
+      "D": "Skips the current iteration and continues with the next iteration of the loop"
+    }
+  },
+  {
+    "name": "What is the default return value of a function in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "null",
+      "B": "undefined",
+      "C": "0",
+      "D": "false"
+    }
+  },
+  {
+    "name": "What is the use of the 'new' operator in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "To create a new variable",
+      "B": "To check if an object exists",
+      "C": "To create an instance of an object",
+      "D": "To create a new function"
+    }
+  },
+  {
+    "name": "Which statement is used to handle exceptions in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "try...catch",
+      "B": "if...else",
+      "C": "check...catch",
+      "D": "error...catch"
+    }
+  },
+  {
+    "name": "What is the purpose of the 'finally' clause in a try-catch statement?",
+    "correctOption": "D",
+    "options": {
+      "A": "To finalize object initialization",
+      "B": "To terminate the program",
+      "C": "To run code after a catch block",
+      "D": "To execute code after the try and catch blocks regardless of an exception being thrown or not"
+    }
+  },
+  {
+    "name": "What does the '&&' operator do in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "It is a logical AND operator that returns true if both operands are true",
+      "B": "It is used to concatenate strings",
+      "C": "It checks the type and value of two operands",
+      "D": "It increments the value of an operand"
+    }
+  },
+  {
+    "name": "What is 'NaN' in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "A valid number",
+      "B": "Not a Number",
+      "C": "A null value",
+      "D": "A new array name"
+    }
+  },
+  {
+    "name": "How do you find the number of elements in an array in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "count()",
+      "B": "len()",
+      "C": "length",
+      "D": "size()"
+    }
+  },
+  {
+    "name": "What is 'undefined' in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "A primitive value automatically assigned to variables that have just been declared",
+      "B": "A method that sets a variable's value to zero",
+      "C": "A function that returns no value",
+      "D": "An error type"
+    }
+  },
+  {
+    "name": "What is the scope of a variable declared with 'let' in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "Global",
+      "B": "Local to the function it is declared in",
+      "C": "Local to the block, statement, or expression it is used in",
+      "D": "Local to the block it is declared in"
+    }
+  },
+  {
+    "name": "What does the '===` operator check in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "Both value and type equality",
+      "B": "Only value equality",
+      "C": "Only type equality",
+      "D": "It converts the operand to the left type"
+    }
+  },
+  {
+    "name": "What is the correct syntax to redirect to a new webpage in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "browser.location = 'http://www.example.com';",
+      "B": "window.location.href = 'http://www.example.com';",
+      "C": "navigator.redirect('http://www.example.com');",
+      "D": "document.location = 'http://www.example.com';"
+    }
+  },
+  {
+    "name": "What does the 'slice' method do in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "Returns a shallow copy of a portion of an array into a new array object",
+      "B": "Removes the last element of an array and returns that element",
+      "C": "Appends one or more elements to the end of an array and returns the new length of the array",
+      "D": "Searches the array for specified items and returns its position"
+    }
+  },
+  {
+    "name": "What is event delegation in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "Invoking an event handler on the child elements rather than the parent.",
+      "B": "Handling events at a higher-level element instead of individual child elements.",
+      "C": "Directly binding event listeners to each individual element.",
+      "D": "Using multiple event listeners on the same element for different events."
+    }
+  },
+  {
+    "name": "Which method is used to remove the last element from an array and return that element in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "pop()",
+      "B": "push()",
+      "C": "shift()",
+      "D": "unshift()"
+    }
+  },
+  {
+    "name": "What does the `Array.filter()` method do?",
+    "correctOption": "C",
+    "options": {
+      "A": "It changes all elements in an array based on a test function.",
+      "B": "It searches the elements of an array to find matching elements and returns them as a new array.",
+      "C": "It creates a new array with all elements that pass the test implemented by the provided function.",
+      "D": "It returns the first element that passes a test given as a function."
+    }
+  },
+  {
+    "name": "How do you stop the propagation of an event in an event handler?",
+    "correctOption": "B",
+    "options": {
+      "A": "event.stop()",
+      "B": "event.stopPropagation()",
+      "C": "event.preventDefault()",
+      "D": "event.haltPropagation()"
+    }
+  },
+  {
+    "name": "What is the difference between `undefined` and `null` in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "`undefined` means a variable has been declared but has not yet been assigned a value, while `null` is an assignment value that represents no value.",
+      "B": "`undefined` is a type on its own, while `null` is an object.",
+      "C": "There is no difference, both represent values of variables that are not defined.",
+      "D": "`null` is used for garbage collection, `undefined` is not."
+    }
+  },
+  {
+    "name": "What is a promise in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "A callback function that handles asynchronous operations.",
+      "B": "A data type that represents a future value or operation.",
+      "C": "A function that executes immediately when it's created.",
+      "D": "An object representing the eventual completion or failure of an asynchronous operation."
+    }
+  },
+  {
+    "name": "Which statement creates a new function in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "var function = new Function();",
+      "B": "var function = function() {};",
+      "C": "var function = new Function('a', 'b', 'return a + b');",
+      "D": "var function = () => {};"
+    }
+  },
+  {
+    "name": "What method can be used to combine two or more arrays in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "attach()",
+      "B": "concatenate()",
+      "C": "append()",
+      "D": "concat()"
+    }
+  },
+  {
+    "name": "What is the use of the `bind()` method in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "To combine two strings.",
+      "B": "To create a new function that, when called, has its `this` keyword set to the provided value.",
+      "C": "To bind elements to an event.",
+      "D": "To permanently link a function to an object."
+    }
+  },
+  {
+    "name": "What does the `apply()` method do in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "Calls a function with a given `this` value, and arguments provided as an array.",
+      "B": "Applies CSS styles to HTML elements.",
+      "C": "Automatically applies the 'this' keyword to functions.",
+      "D": "Calls a method of an object, substituting another object for the current object."
+    }
+  },
+  {
+    "name": "How do you create a class in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "function MyClass() {}",
+      "B": "class = MyClass() {}",
+      "C": "class MyClass {}",
+      "D": "new MyClass() {}"
+    }
+  },
+  {
+    "name": "What is the purpose of template literals in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "To store templates of HTML.",
+      "B": "To concatenate strings in an easier way.",
+      "C": "To create multi-line SQL queries.",
+      "D": "To allow embedded expressions and multi-line strings."
+    }
+  },
+  {
+    "name": "What does the `static` keyword do in a class in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "Makes a class static so it cannot be instantiated.",
+      "B": "Declares a static method or property that belongs to the class, rather than instances of the class.",
+      "C": "Ensures that a class method remains unchangeable.",
+      "D": "Statically types variables within a class."
+    }
+  },
+  {
+    "name": "What is the execution context in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "The environment in which JavaScript code is executed and evaluated.",
+      "B": "A block of code that is set to execute at a certain time.",
+      "C": "The top-level scope that is executing.",
+      "D": "The set of variables available within a certain block of code."
+    }
+  },
+  {
+    "name": "What does `document.querySelector()` do?",
+    "correctOption": "C",
+    "options": {
+      "A": "Returns all elements in the document that matches a specified CSS selector(s).",
+      "B": "Removes a specified element from the document.",
+      "C": "Returns the first element within the document that matches the specified selector, or group of selectors.",
+      "D": "Creates a new Query object."
+    }
+  },
+  {
+    "name": "How do you convert an HTML string to a DOM element in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "HTML.parse()",
+      "B": "new DOMParser().parseFromString(htmlString, 'text/html')",
+      "C": "document.createElement(htmlString)",
+      "D": "document.convertHTML(htmlString)"
+    }
+  },
+  {
+    "name": "What is the 'Strict Mode' in JavaScript and how do you enable it?",
+    "correctOption": "A",
+    "options": {
+      "A": "A way to opt into a restricted variant of JavaScript, enabling it with 'use strict';",
+      "B": "A security feature that ensures JavaScript is executed securely, enabled by default.",
+      "C": "A debugging mode that provides enhanced error reporting, enabled with 'use debug';",
+      "D": "A compilation mode that optimizes JavaScript before execution, enabled using 'use optimize';"
+    }
+  },
+  {
+    "name": "What is 'hoisting' in JavaScript?",
+    "correctOption": "D",
+    "options": {
+      "A": "The default behavior of moving all variable and function declarations to the top of the script.",
+      "B": "A JavaScript feature that allows variable declarations to be lifted from within a block to the top.",
+      "C": "A practice of moving function declarations to the bottom of their scope.",
+      "D": "A JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase."
+    }
+  },
+  {
+    "name": "What is the purpose of the `Symbol` type in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "To symbolize certain conditions in code.",
+      "B": "To create visible symbols on the user interface.",
+      "C": "To provide unique identifiers for object properties.",
+      "D": "To encrypt strings and sensitive data."
+    }
+  },
+  {
+    "name": "What is the difference between the `call()` and `apply()` methods in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "There is no difference; both methods perform the same function.",
+      "B": "`call()` accepts an argument list, while `apply()` accepts a single array of arguments.",
+      "C": "`call()` is used exclusively for functions, while `apply()` is used for methods associated with objects.",
+      "D": "`apply()` is a newer version of `call()` with faster performance."
+    }
+  },
+  {
+    "name": "What is the output of `console.log(1 + '2' + 3)` in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "'123'",
+      "B": "6",
+      "C": "TypeError",
+      "D": "undefined"
+    }
+  },
+  {
+    "name": "What JavaScript method can be used to handle asynchronous operations?",
+    "correctOption": "D",
+    "options": {
+      "A": "forEach()",
+      "B": "map()",
+      "C": "filter()",
+      "D": "Promise"
+    }
+  },
+  {
+    "name": "Which statement is true about JavaScript modules?",
+    "correctOption": "B",
+    "options": {
+      "A": "Modules allow sharing variables between different scripts.",
+      "B": "Modules provide a way to split the codebase into smaller, maintainable pieces.",
+      "C": "JavaScript modules are automatically loaded at the start of the application.",
+      "D": "Modules in JavaScript enhance the speed of the application directly."
+    }
+  },
+  {
+    "name": "What does `Array.reduce()` do in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "It reduces the size of an array by removing elements.",
+      "B": "It finds and removes reduced values from an array.",
+      "C": "It applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.",
+      "D": "It simplifies multiple arrays into a single array."
+    }
+  },
+  {
+    "name": "How does JavaScript handle this scenario: `console.log('5' + 3)`?",
+    "correctOption": "A",
+    "options": {
+      "A": "It outputs '53' as a string.",
+      "B": "It adds 5 and 3 for a result of 8.",
+      "C": "It throws an error because the types are different.",
+      "D": "It converts '5' into a number and adds 3."
+    }
+  },
+  {
+    "name": "What is the Global Execution Context in JavaScript?",
+    "correctOption": "B",
+    "options": {
+      "A": "A collection of JavaScript libraries loaded globally.",
+      "B": "The default environment where your JavaScript code is executed if it's not within any function.",
+      "C": "A secure environment that prevents code from accessing global variables.",
+      "D": "A special mode that executes JavaScript code at a global scale."
+    }
+  },
+  {
+    "name": "What does the `this` keyword represent in a method?",
+    "correctOption": "D",
+    "options": {
+      "A": "It points to the method itself.",
+      "B": "It refers to the JavaScript engine.",
+      "C": "It always refers to the global object.",
+      "D": "It refers to the object that the method is a part of."
+    }
+  },
+  {
+    "name": "What does `function*` define in JavaScript?",
+    "correctOption": "A",
+    "options": {
+      "A": "A generator function",
+      "B": "A starred function with higher priority",
+      "C": "A function that automatically generates numbers",
+      "D": "A deprecated function type that should not be used"
+    }
+  },
+  {
+    "name": "What is the purpose of the `debugger` statement in JavaScript?",
+    "correctOption": "C",
+    "options": {
+      "A": "To deploy the application in debug mode.",
+      "B": "To declare debug variables.",
+      "C": "To start the debugging process of the JavaScript code.",
+      "D": "To configure the debugging environment."
+    }
+  },
+  {
+    "name": "What feature in ES6 allows for the concise representation of anonymous functions?",
+    "correctOption": "B",
+    "options": {
+      "A": "Promises",
+      "B": "Arrow functions",
+      "C": "Templates",
+      "D": "Modules"
+    }
+  }
+]

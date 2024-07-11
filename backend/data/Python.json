@@ -1,0 +1,402 @@
+[
+  {
+    "name": "What is a correct syntax to output 'Hello World' in Python?",
+    "correctOption": "A",
+    "options": {
+      "A": "print('Hello World')",
+      "B": "echo 'Hello World'",
+      "C": "console.log('Hello World')",
+      "D": "printf('Hello World')"
+    }
+  },
+  {
+    "name": "What does the 'len()' function do in Python?",
+    "correctOption": "C",
+    "options": {
+      "A": "Returns the 'length' property of an object",
+      "B": "Calculates the size of a variable",
+      "C": "Returns the length of an object (number of items)",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "How do you create a variable with the numeric value 5?",
+    "correctOption": "D",
+    "options": {
+      "A": "x = int(5)",
+      "B": "x = num(5)",
+      "C": "x = 5",
+      "D": "All of the above are correct"
+    }
+  },
+  {
+    "name": "Which of the following is not a core data type in Python?",
+    "correctOption": "B",
+    "options": {
+      "A": "Lists",
+      "B": "Class",
+      "C": "Dictionary",
+      "D": "Tuple"
+    }
+  },
+  {
+    "name": "What is the correct file extension for Python files?",
+    "correctOption": "A",
+    "options": {
+      "A": ".py",
+      "B": ".python",
+      "C": ".pt",
+      "D": ".pys"
+    }
+  },
+  {
+    "name": "How do you insert COMMENTS in Python code?",
+    "correctOption": "D",
+    "options": {
+      "A": "/* This is a comment */",
+      "B": "// This is a comment",
+      "C": "# This is a comment */",
+      "D": "# This is a comment"
+    }
+  },
+  {
+    "name": "What is the correct way to create a function in Python?",
+    "correctOption": "B",
+    "options": {
+      "A": "function myFunction():",
+      "B": "def myFunction():",
+      "C": "create myFunction():",
+      "D": "function: myFunction()"
+    }
+  },
+  {
+    "name": "Which keyword is used to create a class in Python?",
+    "correctOption": "C",
+    "options": {
+      "A": "class()",
+      "B": "className",
+      "C": "class",
+      "D": "Class"
+    }
+  },
+  {
+    "name": "Which of these collections does not allow duplicate elements in Python?",
+    "correctOption": "A",
+    "options": {
+      "A": "Set",
+      "B": "List",
+      "C": "Tuple",
+      "D": "Dictionary"
+    }
+  },
+  {
+    "name": "What method can be used to remove any whitespace from both the beginning and the end of a string?",
+    "correctOption": "B",
+    "options": {
+      "A": "ptrim()",
+      "B": "strip()",
+      "C": "trim()",
+      "D": "stripWhite()"
+    }
+  },
+  {
+    "name": "What operator is used to raise a number to a power?",
+    "correctOption": "C",
+    "options": {
+      "A": "^",
+      "B": "**%",
+      "C": "**",
+      "D": "^^"
+    }
+  },
+  {
+    "name": "How do you check if a list contains the value 'apple'?",
+    "correctOption": "D",
+    "options": {
+      "A": "list.contains('apple')",
+      "B": "contains('apple') in list",
+      "C": "'apple' in list.exists()",
+      "D": "'apple' in list"
+    }
+  },
+  {
+    "name": "Which method converts a string into a lowercase string?",
+    "correctOption": "A",
+    "options": {
+      "A": "lower()",
+      "B": "tolower()",
+      "C": "string.lower()",
+      "D": "Lcase()"
+    }
+  },
+  {
+    "name": "What is the output of '8 % 3'?",
+    "correctOption": "B",
+    "options": {
+      "A": "2.67",
+      "B": "2",
+      "C": "5",
+      "D": "11"
+    }
+  },
+  {
+    "name": "What keyword is used to check if an object is an instance of a particular class or type?",
+    "correctOption": "A",
+    "options": {
+      "A": "isinstance",
+      "B": "type",
+      "C": "checktype",
+      "D": "is"
+    }
+  },
+  {
+    "name": "Which loop will execute at least once?",
+    "correctOption": "C",
+    "options": {
+      "A": "for loop",
+      "B": "while loop",
+      "C": "do-while loop",
+      "D": "There is no such loop in Python"
+    }
+  },
+  {
+    "name": "Which method returns the highest value in a list?",
+    "correctOption": "B",
+    "options": {
+      "A": "list.maximum()",
+      "B": "max()",
+      "C": "upper()",
+      "D": "highest()"
+    }
+  },
+  {
+    "name": "What is the difference between '==' and 'is'?",
+    "correctOption": "D",
+    "options": {
+      "A": "They do the same thing",
+      "B": "'==' checks values and 'is' checks methods",
+      "C": "'==' is used to assign values and 'is' to compare values",
+      "D": "'==' compares the values and 'is' compares the identities"
+    }
+  },
+  {
+    "name": "What is the output of 'type([])'?",
+    "correctOption": "A",
+    "options": {
+      "A": "<class 'list'>",
+      "B": "<type 'array'>",
+      "C": "<class 'array'>",
+      "D": "<type 'list'>"
+    }
+  },
+  {
+    "name": "Which keyword is used to handle exceptions in Python?",
+    "correctOption": "C",
+    "options": {
+      "A": "handle",
+      "B": "error",
+      "C": "except",
+      "D": "catch"
+    }
+  },
+  {
+    "name": "What function is used to read input from the console in Python?",
+    "correctOption": "B",
+    "options": {
+      "A": "inputString()",
+      "B": "input()",
+      "C": "read()",
+      "D": "get()"
+    }
+  },
+  {
+    "name": "What is a correct syntax to return the first character in a string?",
+    "correctOption": "C",
+    "options": {
+      "A": "x.substr(0, 1)",
+      "B": "x[1]",
+      "C": "x[0]",
+      "D": "x.charAt(0)"
+    }
+  },
+  {
+    "name": "How do you start a function in Python that contains a generator?",
+    "correctOption": "D",
+    "options": {
+      "A": "function myGenerator()",
+      "B": "func myGenerator()",
+      "C": "def generator myGenerator():",
+      "D": "def myGenerator(): yield"
+    }
+  },
+  {
+    "name": "Which keyword is used to import modules in Python?",
+    "correctOption": "A",
+    "options": {
+      "A": "import",
+      "B": "include",
+      "C": "using",
+      "D": "extends"
+    }
+  },
+  {
+    "name": "What is the output of the expression: 3 ** 2?",
+    "correctOption": "B",
+    "options": {
+      "A": "6",
+      "B": "9",
+      "C": "5",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "How do you create a list in Python?",
+    "correctOption": "C",
+    "options": {
+      "A": "list = list()",
+      "B": "list = []",
+      "C": "Both A and B are correct",
+      "D": "list() = []"
+    }
+  },
+  {
+    "name": "Which function can convert an integer to a hexadecimal string in Python?",
+    "correctOption": "B",
+    "options": {
+      "A": "str.hex()",
+      "B": "hex()",
+      "C": "int.toHex()",
+      "D": "toHex()"
+    }
+  },
+  {
+    "name": "What method is used to append an item to the end of a list?",
+    "correctOption": "A",
+    "options": {
+      "A": "append()",
+      "B": "push()",
+      "C": "put()",
+      "D": "add()"
+    }
+  },
+  {
+    "name": "What method removes the first occurrence of a specified element in a list?",
+    "correctOption": "D",
+    "options": {
+      "A": "removeIndex()",
+      "B": "delete()",
+      "C": "pop()",
+      "D": "remove()"
+    }
+  },
+  {
+    "name": "What is the output of 'bool(0)'?",
+    "correctOption": "C",
+    "options": {
+      "A": "True",
+      "B": "None",
+      "C": "False",
+      "D": "0"
+    }
+  },
+  {
+    "name": "How is memory managed in Python?",
+    "correctOption": "D",
+    "options": {
+      "A": "Memory management in Python is done through manual garbage collection.",
+      "B": "Python has an in-built garbage collector, which recycles all the unused memory to make it available for heap space.",
+      "C": "Python programs must manage memory by explicitly allocating and deallocating memory as needed.",
+      "D": "Both B and C are correct."
+    }
+  },
+  {
+    "name": "Which of the following is a complex number?",
+    "correctOption": "A",
+    "options": {
+      "A": "k = 2 + 3j",
+      "B": "k = 2 + 3",
+      "C": "k = 2 * 3j",
+      "D": "k = 2 + j3"
+    }
+  },
+  {
+    "name": "How do you declare a comment in Python?",
+    "correctOption": "B",
+    "options": {
+      "A": "/* This is a comment */",
+      "B": "# This is a comment",
+      "C": "// This is a comment",
+      "D": "<!-- This is a comment -->"
+    }
+  },
+  {
+    "name": "Which statement is used to stop a loop?",
+    "correctOption": "C",
+    "options": {
+      "A": "stop",
+      "B": "exit",
+      "C": "break",
+      "D": "end"
+    }
+  },
+  {
+    "name": "How do you create a tuple in Python?",
+    "correctOption": "D",
+    "options": {
+      "A": "tuple = tuple()",
+      "B": "tuple = []",
+      "C": "tuple = {}",
+      "D": "tuple = ()"
+    }
+  },
+  {
+    "name": "What is the difference between a list and a tuple?",
+    "correctOption": "A",
+    "options": {
+      "A": "List is mutable, whereas a tuple is immutable",
+      "B": "List is immutable, whereas a tuple is mutable",
+      "C": "List and tuple are both immutable",
+      "D": "List and tuple are both mutable"
+    }
+  },
+  {
+    "name": "Which method is used to find an item in a list?",
+    "correctOption": "B",
+    "options": {
+      "A": "locate()",
+      "B": "index()",
+      "C": "find()",
+      "D": "search()"
+    }
+  },
+  {
+    "name": "What is the correct way to define a dictionary in Python?",
+    "correctOption": "C",
+    "options": {
+      "A": "dict = {}",
+      "B": "dict = []",
+      "C": "Both A and B are incorrect",
+      "D": "dict = ()"
+    }
+  },
+  {
+    "name": "What is the term for code that is written but not executed in Python notebooks, such as Jupyter Notebook?",
+    "correctOption": "A",
+    "options": {
+      "A": "Markdown",
+      "B": "Comment",
+      "C": "Annotation",
+      "D": "Documentation"
+    }
+  },
+  {
+    "name": "What is the keyword 'None' used for in Python?",
+    "correctOption": "B",
+    "options": {
+      "A": "To define a false value",
+      "B": "To denote absence of a value or a null value",
+      "C": "To declare an empty variable",
+      "D": "To error out a program"
+    }
+  }
+]

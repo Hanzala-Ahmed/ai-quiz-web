@@ -1,0 +1,602 @@
+[
+  {
+    "name": "What is the purpose of the 'final' keyword in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "To finalize the values of system resources",
+      "B": "To declare a constant variable or a method that cannot be overridden, or a class that cannot be inherited",
+      "C": "To indicate the last element of an array",
+      "D": "To finalize object creation"
+    }
+  },
+  {
+    "name": "What does the 'static' keyword do in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "Declares a member variable or method that can be accessed without creating an instance of the class",
+      "B": "Makes methods faster by storing them in static memory",
+      "C": "Static typing of variables",
+      "D": "Declares constants"
+    }
+  },
+  {
+    "name": "How do you create a new instance of a class in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "class MyClass = new MyClass();",
+      "B": "new MyClass();",
+      "C": "class MyClass = MyClass();",
+      "D": "MyClass myClass = new MyClass();"
+    }
+  },
+  {
+    "name": "Which interface does Java use for sorting objects?",
+    "correctOption": "C",
+    "options": {
+      "A": "Sortable",
+      "B": "Sort",
+      "C": "Comparable",
+      "D": "Comparator"
+    }
+  },
+  {
+    "name": "What is an exception in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "A type of class",
+      "B": "An event that occurs during the execution of a program that disrupts the normal flow of instructions",
+      "C": "A method that terminates a program",
+      "D": "A variable that stores error values"
+    }
+  },
+  {
+    "name": "Which of these is not a valid Java data type?",
+    "correctOption": "D",
+    "options": {
+      "A": "int",
+      "B": "float",
+      "C": "boolean",
+      "D": "characteristic"
+    }
+  },
+  {
+    "name": "What does the '@Override' annotation do?",
+    "correctOption": "A",
+    "options": {
+      "A": "Indicates that a method declaration is intended to override a method declaration in a superclass",
+      "B": "Overrides the values of variables",
+      "C": "Changes the default behavior of the compiler",
+      "D": "Increases the visibility of methods"
+    }
+  },
+  {
+    "name": "What is the Java Virtual Machine (JVM)?",
+    "correctOption": "C",
+    "options": {
+      "A": "A physical machine that runs all Java apps",
+      "B": "A high-speed Java processor",
+      "C": "An engine that provides a runtime environment to drive the Java Code or applications",
+      "D": "A storage area for Java applications"
+    }
+  },
+  {
+    "name": "What is 'Polymorphism' in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "The ability of a variable to store multiple types",
+      "B": "The ability of an object to take on many forms",
+      "C": "A method that can perform multiple tasks",
+      "D": "The process of moving from a simpler to a more complex system"
+    }
+  },
+  {
+    "name": "How do you handle multiple exceptions in a single catch block in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "List exceptions separated by a semicolon",
+      "B": "Use multiple catch blocks",
+      "C": "Handle one exception at a time",
+      "D": "Use a pipe symbol (|) to separate the exceptions"
+    }
+  },
+  {
+    "name": "What is the default value of a boolean in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "false",
+      "B": "true",
+      "C": "null",
+      "D": "0"
+    }
+  },
+  {
+    "name": "What is 'encapsulation' in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "The process of converting primitive data types into objects",
+      "B": "A technique to protect the data in an object from other methods",
+      "C": "A packaging mechanism that combines various classes",
+      "D": "A type of inheritance"
+    }
+  },
+  {
+    "name": "Which of these is not a loop structure in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "for",
+      "B": "while",
+      "C": "do-while",
+      "D": "repeat-until"
+    }
+  },
+  {
+    "name": "What is a 'constructor' in Java?",
+    "correctOption": "C",
+    "options": {
+      "A": "A method that is called at the start of any Java program",
+      "B": "A class specifically designed to create objects",
+      "C": "A block of code that initializes a newly created object",
+      "D": "A type of variable"
+    }
+  },
+  {
+    "name": "What is 'inheritance' in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "The process by which one class acquires the properties and functionalities of another class",
+      "B": "The method of overriding the functionality of an existing class",
+      "C": "A technique for data hiding in object-oriented programming",
+      "D": "The ability of Java to run on many different operating systems"
+    }
+  },
+  {
+    "name": "How do you declare an array in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "int array {}",
+      "B": "int[] array;",
+      "C": "int array[];",
+      "D": "Both B and C are correct"
+    }
+  },
+  {
+    "name": "What is 'Java SE'?",
+    "correctOption": "C",
+    "options": {
+      "A": "Java Security Extension",
+      "B": "Java Standard Edition",
+      "C": "Both A and B",
+      "D": "Java Software Edition"
+    }
+  },
+  {
+    "name": "Which keyword is used to create a synchronized block in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "synchronizedBlock",
+      "B": "synchronized",
+      "C": "sync",
+      "D": "lock"
+    }
+  },
+  {
+    "name": "What does the 'transient' keyword indicate?",
+    "correctOption": "A",
+    "options": {
+      "A": "That a variable should not be serialized",
+      "B": "That a variable is temporary",
+      "C": "That a variable can be modified asynchronously",
+      "D": "That a variable is volatile"
+    }
+  },
+  {
+    "name": "What is the return type of a method that does not return a value?",
+    "correctOption": "D",
+    "options": {
+      "A": "null",
+      "B": "void",
+      "C": "int",
+      "D": "void"
+    }
+  },
+  {
+    "name": "What is an interface in Java?",
+    "correctOption": "C",
+    "options": {
+      "A": "A template for classes that contains static methods only",
+      "B": "A class that is used to store constants",
+      "C": "A reference type in Java, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types",
+      "D": "A special class that cannot instantiate objects"
+    }
+  },
+  {
+    "name": "Which collection class allows you to access its elements by associating a key with an element's value, and which cannot contain duplicate keys?",
+    "correctOption": "A",
+    "options": {
+      "A": "Map",
+      "B": "Set",
+      "C": "List",
+      "D": "Queue"
+    }
+  },
+  {
+    "name": "Which method must be implemented by a class that implements the java.lang.Runnable interface?",
+    "correctOption": "B",
+    "options": {
+      "A": "run()",
+      "B": "start()",
+      "C": "stop()",
+      "D": "execute()"
+    }
+  },
+  {
+    "name": "What is the difference between JDK and JRE?",
+    "correctOption": "D",
+    "options": {
+      "A": "JDK is a development environment for building applications, applets, and components using the Java programming language.",
+      "B": "JRE is an implementation of the Java Virtual Machine which executes Java programs.",
+      "C": "There is no difference between JDK and JRE.",
+      "D": "JDK includes the JRE and other tools to compile, debug, and run Java applications."
+    }
+  },
+  {
+    "name": "What does the expression 'int[] array = new int[10];' do in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "It creates an array of ten integers.",
+      "B": "It declares an array of ten undefined integers.",
+      "C": "It creates an array of ten integer pointers.",
+      "D": "None of the above."
+    }
+  },
+  {
+    "name": "What is the size of a char in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "8 bits",
+      "B": "16 bits",
+      "C": "32 bits",
+      "D": "64 bits"
+    }
+  },
+  {
+    "name": "How do you ensure that a resource is closed once the program is finished with it?",
+    "correctOption": "C",
+    "options": {
+      "A": "By calling System.exit()",
+      "B": "By setting all objects to null",
+      "C": "By using a try-with-resources statement",
+      "D": "By manually closing the resource at the end of the program"
+    }
+  },
+  {
+    "name": "What does garbage collection in Java do?",
+    "correctOption": "A",
+    "options": {
+      "A": "Reclaims memory from objects eligible for garbage collection",
+      "B": "Prevents the application from running out of memory",
+      "C": "Deletes unused variables from memory",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "What is type casting in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "Changing a variable from one type to another",
+      "B": "Automatically upgrading the type of variables",
+      "C": "Removing variables of a certain type",
+      "D": "Converting a variable from one type to another type"
+    }
+  },
+  {
+    "name": "What is the use of the 'super' keyword in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "To call a method of the superclass",
+      "B": "To refer to the immediate parent class object",
+      "C": "To declare a variable in the superclass",
+      "D": "To override a method in the superclass"
+    }
+  },
+  {
+    "name": "Which of the following is true about the 'transient' keyword in Java?",
+    "correctOption": "C",
+    "options": {
+      "A": "Transient variables cannot be serialized",
+      "B": "Transient variables are always static",
+      "C": "Transient variables are not part of the serialization process",
+      "D": "Transient variables can be serialized"
+    }
+  },
+  {
+    "name": "What is the output of 'System.out.println(10.0 / 0);' in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "Throws an ArithmeticException",
+      "B": "0",
+      "C": "10",
+      "D": "Infinity"
+    }
+  },
+  {
+    "name": "How is a thread created in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "By implementing Runnable or extending Thread class",
+      "B": "By calling the method thread.start()",
+      "C": "By using the ExecutorService",
+      "D": "By instantiating Thread with a Runnable"
+    }
+  },
+  {
+    "name": "What is the purpose of the 'volatile' keyword in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "It makes the class thread-safe",
+      "B": "It ensures that the value of the variable will not be cached thread-locally, and is always read from the main memory",
+      "C": "It is used to indicate that a variable may change asynchronously",
+      "D": "All of the above"
+    }
+  },
+  {
+    "name": "What does the 'synchronized' keyword ensure?",
+    "correctOption": "C",
+    "options": {
+      "A": "Prevents concurrent access to a block of code or object by multiple threads",
+      "B": "It synchronizes code execution across multiple threads",
+      "C": "It provides a lock to a resource so that only one thread can access the resource at a time",
+      "D": "It allows threads to communicate about the lock status of a resource"
+    }
+  },
+  {
+    "name": "What is the default layout of a JPanel?",
+    "correctOption": "D",
+    "options": {
+      "A": "GridLayout",
+      "B": "FlowLayout",
+      "C": "BorderLayout",
+      "D": "FlowLayout"
+    }
+  },
+  {
+    "name": "What is the base class of all exceptions and errors in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "Throwable",
+      "B": "Exception",
+      "C": "Error",
+      "D": "RuntimeException"
+    }
+  },
+  {
+    "name": "Which package contains the Random class?",
+    "correctOption": "B",
+    "options": {
+      "A": "java.util.function",
+      "B": "java.util",
+      "C": "java.lang",
+      "D": "java.math"
+    }
+  },
+  {
+    "name": "Which method must be implemented by all threads in Java?",
+    "correctOption": "C",
+    "options": {
+      "A": "start()",
+      "B": "run()",
+      "C": "call()",
+      "D": "execute()"
+    }
+  },
+  {
+    "name": "What is the use of the 'implements' keyword in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "To inherit from a superclass",
+      "B": "To declare a constant",
+      "C": "To define a method",
+      "D": "To implement an interface"
+    }
+  },
+  {
+    "name": "What is the output of 'System.out.println(10 + \"20\");' in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "\"1020\"",
+      "B": "30",
+      "C": "Compilation error",
+      "D": "Runtime error"
+    }
+  },
+  {
+    "name": "What does the 'private' access modifier specify?",
+    "correctOption": "C",
+    "options": {
+      "A": "The variable can be accessed by any class in the same package",
+      "B": "The variable can be accessed by any class",
+      "C": "The variable can only be accessed within its own class",
+      "D": "The variable can be accessed by subclasses only"
+    }
+  },
+  {
+    "name": "What is the use of the 'continue' keyword in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "Terminates the loop immediately",
+      "B": "Skips the current iteration and continues with the next iteration of the loop",
+      "C": "Continues to execute the program from the start",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "What does the 'protected' access modifier specify?",
+    "correctOption": "D",
+    "options": {
+      "A": "The member is accessible only within its own package and by any subclass",
+      "B": "The member is accessible only by classes in the same package",
+      "C": "The member is accessible by any class",
+      "D": "The member is accessible within its own package and by subclasses in other packages"
+    }
+  },
+  {
+    "name": "Which of the following is a valid declaration of a char in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "char ch = 'X';",
+      "B": "char ch = 'XX';",
+      "C": "char ch = \"X\";",
+      "D": "char ch = -1;"
+    }
+  },
+  {
+    "name": "Which of these is not a Java feature?",
+    "correctOption": "C",
+    "options": {
+      "A": "Dynamic",
+      "B": "Architecture Neutral",
+      "C": "Use of pointers",
+      "D": "Object-oriented"
+    }
+  },
+  {
+    "name": "Which collection does not allow duplicate elements?",
+    "correctOption": "A",
+    "options": {
+      "A": "Set",
+      "B": "List",
+      "C": "Queue",
+      "D": "Map"
+    }
+  },
+  {
+    "name": "What is the use of the 'instanceof' keyword?",
+    "correctOption": "B",
+    "options": {
+      "A": "To check if an object is an instance of a specific class or interface",
+      "B": "To check if an object is an instance of a specific class",
+      "C": "To create an instance of a class",
+      "D": "To compare two objects"
+    }
+  },
+  {
+    "name": "What is autoboxing in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "Automatically converting a lower type to a higher type",
+      "B": "Storing Java objects in a box for security",
+      "C": "Manual conversion of primitive types to the corresponding wrapper class",
+      "D": "Automatic conversion of primitive types into their corresponding wrapper class"
+    }
+  },
+  {
+    "name": "What is the starting index for arrays in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "-1",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "Which method is used to get the length of a string in Java?",
+    "correctOption": "C",
+    "options": {
+      "A": "getSize()",
+      "B": "len()",
+      "C": "length()",
+      "D": "getLength()"
+    }
+  },
+  {
+    "name": "What does the Java expression 2 + 3 * 5 produce?",
+    "correctOption": "B",
+    "options": {
+      "A": "25",
+      "B": "17",
+      "C": "Compilation error",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "How do you convert a string to an integer in Java?",
+    "correctOption": "D",
+    "options": {
+      "A": "int i = Integer.parseInt(\"123\");",
+      "B": "int i = Integer.valueOf(\"123\");",
+      "C": "Both A and B",
+      "D": "Both A and B are correct"
+    }
+  },
+  {
+    "name": "Which class is the superclass of all other classes in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "Object",
+      "B": "Class",
+      "C": "System",
+      "D": "Main"
+    }
+  },
+  {
+    "name": "What is the default value of an object reference declared as an instance variable?",
+    "correctOption": "B",
+    "options": {
+      "A": "null",
+      "B": "undefined",
+      "C": "0",
+      "D": "Not defined"
+    }
+  },
+  {
+    "name": "What is the correct way to declare a method that returns an array in Java?",
+    "correctOption": "C",
+    "options": {
+      "A": "public int returnsArray() { ... }",
+      "B": "public int[] returnsArray; { ... }",
+      "C": "public int[] returnsArray() { ... }",
+      "D": "public array returnsArray() { ... }"
+    }
+  },
+  {
+    "name": "What does the expression float f = 35 / 0 produce?",
+    "correctOption": "B",
+    "options": {
+      "A": "0",
+      "B": "Infinity",
+      "C": "An ArithmeticException",
+      "D": "Compilation error"
+    }
+  },
+  {
+    "name": "What is the difference between a 'while' loop and a 'do-while' loop in Java?",
+    "correctOption": "A",
+    "options": {
+      "A": "A 'do-while' loop executes its body at least once, while a 'while' loop may not execute at all if its condition is not met initially",
+      "B": "A 'while' loop is faster than a 'do-while' loop",
+      "C": "A 'do-while' loop cannot contain conditional statements",
+      "D": "There is no difference between the two"
+    }
+  },
+  {
+    "name": "Which operator is used to allocate memory for an object?",
+    "correctOption": "D",
+    "options": {
+      "A": "alloc",
+      "B": "malloc",
+      "C": "new",
+      "D": "new"
+    }
+  },
+  {
+    "name": "Which of these is not an access modifier in Java?",
+    "correctOption": "B",
+    "options": {
+      "A": "public",
+      "B": "friend",
+      "C": "protected",
+      "D": "private"
+    }
+  }
+]

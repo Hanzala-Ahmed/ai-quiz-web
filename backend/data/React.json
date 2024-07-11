@@ -1,0 +1,502 @@
+[
+  {
+    "name": "What is the difference between a Class component and a Function component in React?",
+    "correctOption": "A",
+    "options": {
+      "A": "Class components can hold state and lifecycle methods, while function components cannot until hooks were introduced.",
+      "B": "There is no difference; both can use state and lifecycle methods inherently.",
+      "C": "Function components are only used for rendering UI and cannot handle logic.",
+      "D": "Class components do not support hooks."
+    }
+  },
+  {
+    "name": "How do you pass data to components in React?",
+    "correctOption": "C",
+    "options": {
+      "A": "Using SQL queries",
+      "B": "Through CSS",
+      "C": "Via props",
+      "D": "Using an API"
+    }
+  },
+  {
+    "name": "Which lifecycle method is called first in the mounting phase of a Class component?",
+    "correctOption": "D",
+    "options": {
+      "A": "componentDidMount",
+      "B": "componentWillUnmount",
+      "C": "componentDidUpdate",
+      "D": "constructor"
+    }
+  },
+  {
+    "name": "What is the purpose of keys in React lists?",
+    "correctOption": "B",
+    "options": {
+      "A": "To enhance CSS styling capabilities",
+      "B": "To help identify which items have changed, been added, or been removed",
+      "C": "To increase performance by reducing re-renders",
+      "D": "Keys are used for accessibility features in lists"
+    }
+  },
+  {
+    "name": "What does the Context API in React provide?",
+    "correctOption": "A",
+    "options": {
+      "A": "A way to pass data through the component tree without having to pass props down manually at every level",
+      "B": "A method for managing state locally within a component",
+      "C": "A tool to interact with the DOM directly",
+      "D": "A library for making HTTP requests"
+    }
+  },
+  {
+    "name": "What is the correct method for updating the state based on the previous state in a functional component?",
+    "correctOption": "B",
+    "options": {
+      "A": "this.setState({ count: this.state.count + 1 })",
+      "B": "this.setState(prevState => ({ count: prevState.count + 1 }))",
+      "C": "this.state.count++",
+      "D": "this.setState({ count: count + 1 })"
+    }
+  },
+  {
+    "name": "Which hook is used in React to perform a side effect after every render?",
+    "correctOption": "A",
+    "options": {
+      "A": "useEffect",
+      "B": "useState",
+      "C": "useContext",
+      "D": "useReducer"
+    }
+  },
+  {
+    "name": "How can you improve performance of a React application?",
+    "correctOption": "D",
+    "options": {
+      "A": "By adding more virtual DOM",
+      "B": "By using native components only",
+      "C": "By minimizing the use of CSS",
+      "D": "By memoizing React components to prevent unnecessary re-renders"
+    }
+  },
+  {
+    "name": "What does the `shouldComponentUpdate` lifecycle method do?",
+    "correctOption": "C",
+    "options": {
+      "A": "It allows you to see what changes in props and state have occurred over time",
+      "B": "It forces a component to re-render regardless of prop or state changes",
+      "C": "It allows a component to avoid re-rendering if certain conditions are met",
+      "D": "It updates the component when new props are received"
+    }
+  },
+  {
+    "name": "What is the primary use of Redux in a React application?",
+    "correctOption": "B",
+    "options": {
+      "A": "To manage local component state",
+      "B": "To manage global state across components",
+      "C": "To interact directly with the DOM",
+      "D": "To enhance the styling of components"
+    }
+  },
+  {
+    "name": "Which method in a React component should you override to stop the component from updating?",
+    "correctOption": "B",
+    "options": {
+      "A": "componentWillUpdate",
+      "B": "shouldComponentUpdate",
+      "C": "componentDidUpdate",
+      "D": "componentWillReceiveProps"
+    }
+  },
+  {
+    "name": "What can be used in React to handle multiple input form elements?",
+    "correctOption": "A",
+    "options": {
+      "A": "Single event handler",
+      "B": "Multiple event handlers",
+      "C": "Use state management libraries",
+      "D": "None of the above"
+    }
+  },
+  {
+    "name": "What is a higher-order component in React?",
+    "correctOption": "D",
+    "options": {
+      "A": "A component that returns a state",
+      "B": "A function that takes a component and returns a new component",
+      "C": "A callback function",
+      "D": "A component that takes another component as an argument or returns another component"
+    }
+  },
+  {
+    "name": "In React, what is a fragment?",
+    "correctOption": "C",
+    "options": {
+      "A": "A method to keep the DOM in sync",
+      "B": "A part of the state object",
+      "C": "A container used to group elements without adding extra nodes to the DOM",
+      "D": "A type of HOC"
+    }
+  },
+  {
+    "name": "What does the term 'lifting state up' mean in React?",
+    "correctOption": "A",
+    "options": {
+      "A": "Moving state to a common ancestor of components that need it",
+      "B": "Sending state to a child component",
+      "C": "Updating state in a Redux store",
+      "D": "Increasing state values incrementally"
+    }
+  },
+  {
+    "name": "What is the default behavior of a React component on state change?",
+    "correctOption": "B",
+    "options": {
+      "A": "Deletes the state",
+      "B": "Re-renders the component",
+      "C": "Calls componentWillUnmount",
+      "D": "Calls componentDidMount"
+    }
+  },
+  {
+    "name": "Which of the following is not a lifecycle method in Class components?",
+    "correctOption": "D",
+    "options": {
+      "A": "shouldComponentUpdate",
+      "B": "componentDidMount",
+      "C": "componentWillUnmount",
+      "D": "componentSetState"
+    }
+  },
+  {
+    "name": "What is the use of the 'key' prop in React lists?",
+    "correctOption": "B",
+    "options": {
+      "A": "To differentiate each element from the next",
+      "B": "To provide a stable identity to elements in lists",
+      "C": "To increase performance",
+      "D": "To unlock additional React features"
+    }
+  },
+  {
+    "name": "How do you prevent the default behavior in an event handler in React?",
+    "correctOption": "A",
+    "options": {
+      "A": "event.preventDefault()",
+      "B": "event.stopDefault()",
+      "C": "preventDefault()",
+      "D": "stopPropagation()"
+    }
+  },
+  {
+    "name": "What tool is used to transpile JSX?",
+    "correctOption": "C",
+    "options": {
+      "A": "Redux",
+      "B": "Reselect",
+      "C": "Babel",
+      "D": "Webpack"
+    }
+  },
+  {
+    "name": "Which hook in React is used to access the previous value of props or state?",
+    "correctOption": "C",
+    "options": {
+      "A": "useMemo",
+      "B": "useReducer",
+      "C": "useRef",
+      "D": "useContext"
+    }
+  },
+  {
+    "name": "Which of the following is not a valid way to define a component in React?",
+    "correctOption": "D",
+    "options": {
+      "A": "Function component",
+      "B": "Class component",
+      "C": "Arrow function component",
+      "D": "Inline component"
+    }
+  },
+  {
+    "name": "What is the primary purpose of Redux?",
+    "correctOption": "A",
+    "options": {
+      "A": "State management",
+      "B": "Data fetching",
+      "C": "DOM manipulation",
+      "D": "Code bundling"
+    }
+  },
+  {
+    "name": "Which of the following is a recommended way to optimize performance in React applications?",
+    "correctOption": "B",
+    "options": {
+      "A": "Increasing the number of components",
+      "B": "Using React.memo for functional components",
+      "C": "Using multiple useState calls in a single component",
+      "D": "Frequently unmounting and remounting components"
+    }
+  },
+  {
+    "name": "In React, what does the term 'prop drilling' refer to?",
+    "correctOption": "A",
+    "options": {
+      "A": "Passing props from a parent component to a deeply nested child component",
+      "B": "Extracting props from a component",
+      "C": "Validating props with PropTypes",
+      "D": "Using props in lifecycle methods"
+    }
+  },
+  {
+    "name": "What does the useContext hook do?",
+    "correctOption": "B",
+    "options": {
+      "A": "Updates the context value globally",
+      "B": "Lets you subscribe to React context without introducing nesting",
+      "C": "Creates a new context",
+      "D": "Destroys a context"
+    }
+  },
+  {
+    "name": "What is the purpose of the useCallback hook?",
+    "correctOption": "D",
+    "options": {
+      "A": "To call a function as a callback after state changes",
+      "B": "To generate callback functions for HTTP requests",
+      "C": "To render components conditionally",
+      "D": "To return a memoized callback function"
+    }
+  },
+  {
+    "name": "Which lifecycle method is commonly used to fetch data in a class component?",
+    "correctOption": "C",
+    "options": {
+      "A": "componentDidUpdate",
+      "B": "componentWillMount",
+      "C": "componentDidMount",
+      "D": "componentWillUnmount"
+    }
+  },
+  {
+    "name": "How do you pass a parameter to an event handler or callback in React?",
+    "correctOption": "B",
+    "options": {
+      "A": "Directly pass the parameter to the event handler function",
+      "B": "Use an arrow function to encapsulate the method call",
+      "C": "Use the bind method in the JSX",
+      "D": "React handles parameters automatically"
+    }
+  },
+  {
+    "name": "What is the significance of the React Virtual DOM?",
+    "correctOption": "C",
+    "options": {
+      "A": "It is a physical representation of the user interface",
+      "B": "It allows direct modification of the HTML",
+      "C": "It allows React to perform efficient diff computations on nodes",
+      "D": "It is a tool used only for React Native applications"
+    }
+  },
+  {
+    "name": "What is `useState` used for in React?",
+    "correctOption": "A",
+    "options": {
+      "A": "To manage the component's state in a function component.",
+      "B": "To link components together.",
+      "C": "To fetch data from an API.",
+      "D": "To render components to the DOM."
+    }
+  },
+  {
+    "name": "What role does `ReactDOM.render` play in a React application?",
+    "correctOption": "C",
+    "options": {
+      "A": "It updates the state within components.",
+      "B": "It connects Redux to React components.",
+      "C": "It mounts JSX elements to the DOM.",
+      "D": "It performs API calls asynchronously."
+    }
+  },
+  {
+    "name": "How does React achieve efficient updates in the DOM?",
+    "correctOption": "B",
+    "options": {
+      "A": "By directly manipulating the DOM in real time.",
+      "B": "By using virtual DOM to limit real DOM manipulations.",
+      "C": "By deleting and recreating the DOM tree.",
+      "D": "By caching all DOM nodes."
+    }
+  },
+  {
+    "name": "What is the purpose of `React.Fragment`?",
+    "correctOption": "C",
+    "options": {
+      "A": "To store data temporarily in memory.",
+      "B": "To enable global state management.",
+      "C": "To group a list of children without adding extra nodes to the DOM.",
+      "D": "To manage the lifecycle of all child components."
+    }
+  },
+  {
+    "name": "What is the use of `React.PureComponent`?",
+    "correctOption": "B",
+    "options": {
+      "A": "To manage the app's navigation.",
+      "B": "To re-render only when there are changes in state or props.",
+      "C": "To store component's state permanently.",
+      "D": "To handle side effects in functional components."
+    }
+  },
+  {
+    "name": "What is the significance of immutability in React components?",
+    "correctOption": "C",
+    "options": {
+      "A": "It ensures components do not change their props.",
+      "B": "It requires all React components to be stateless.",
+      "C": "It helps prevent unwanted side effects and optimizes performance.",
+      "D": "It is required for making HTTP requests."
+    }
+  },
+  {
+    "name": "How can you conditionally apply classes in a React component?",
+    "correctOption": "C",
+    "options": {
+      "A": "By using the `useState` hook.",
+      "B": "By utilizing the `classList` API.",
+      "C": "By using the ternary operator inside the `className` attribute.",
+      "D": "By sending class names as props."
+    }
+  },
+  {
+    "name": "What is the use of `useEffect` in React?",
+    "correctOption": "C",
+    "options": {
+      "A": "To handle synchronous operations like calculations.",
+      "B": "To interact directly with the DOM.",
+      "C": "To handle side effects in functional components.",
+      "D": "To manage state transitions and routing."
+    }
+  },
+  {
+    "name": "How do you handle form submissions in React?",
+    "correctOption": "A",
+    "options": {
+      "A": "By using the `onSubmit` event.",
+      "B": "By calling an API directly from the input fields.",
+      "C": "By using `useState` to store form values.",
+      "D": "By manipulating the DOM manually."
+    }
+  },
+  {
+    "name": "What is the purpose of keys in React lists?",
+    "correctOption": "A",
+    "options": {
+      "A": "To optimize the rendering process by providing a stable identity.",
+      "B": "To increase the readability of the code.",
+      "C": "To integrate third-party libraries.",
+      "D": "To trigger animations in list items."
+    }
+  },
+  {
+    "name": "What function is used to create a Context in React?",
+    "correctOption": "B",
+    "options": {
+      "A": "React.createRef",
+      "B": "React.createContext",
+      "C": "React.createElement",
+      "D": "React.createState"
+    }
+  },
+  {
+    "name": "What is the purpose of the React Router package?",
+    "correctOption": "A",
+    "options": {
+      "A": "To handle navigation and routing in React applications.",
+      "B": "To manage state across components.",
+      "C": "To synchronize the application's state with the browser's URL.",
+      "D": "To enhance performance by reducing JavaScript load times."
+    }
+  },
+  {
+    "name": "What does `props.children` represent in React?",
+    "correctOption": "C",
+    "options": {
+      "A": "A reference to the child components' props.",
+      "B": "A method to pass properties to child components.",
+      "C": "The content passed between the opening and closing tags of a component.",
+      "D": "Data passed to the component's constructor."
+    }
+  },
+  {
+    "name": "In React, how is `forwardRef` used?",
+    "correctOption": "D",
+    "options": {
+      "A": "To enhance component reusability.",
+      "B": "To manage state updates more efficiently.",
+      "C": "To send props to parent components.",
+      "D": "To pass refs down to child components."
+    }
+  },
+  {
+    "name": "What is the purpose of the `useReducer` hook in React?",
+    "correctOption": "B",
+    "options": {
+      "A": "To manage HTTP requests efficiently.",
+      "B": "To manage complex state logic in components.",
+      "C": "To reduce the number of re-renders.",
+      "D": "To replace the use of Redux in larger applications."
+    }
+  },
+  {
+    "name": "How can you optimize performance in a React application using keys?",
+    "correctOption": "A",
+    "options": {
+      "A": "By providing unique and stable keys for list items.",
+      "B": "By using the same key for all list items.",
+      "C": "By randomizing keys on every render.",
+      "D": "By omitting keys entirely."
+    }
+  },
+  {
+    "name": "What is the main difference between `useMemo` and `useCallback` hooks?",
+    "correctOption": "C",
+    "options": {
+      "A": "Both hooks are used to manage state.",
+      "B": "There is no difference; both hooks serve the same purpose.",
+      "C": "`useMemo` returns a memoized value, while `useCallback` returns a memoized function.",
+      "D": "`useCallback` is used for data fetching, while `useMemo` is used for event handlers."
+    }
+  },
+  {
+    "name": "What is the purpose of the `useRef` hook in React?",
+    "correctOption": "B",
+    "options": {
+      "A": "To update the component state on every render.",
+      "B": "To access and interact with DOM elements directly.",
+      "C": "To store the previous state value across renders.",
+      "D": "To trigger re-renders intentionally."
+    }
+  },
+  {
+    "name": "How do you implement code-splitting in a React application?",
+    "correctOption": "A",
+    "options": {
+      "A": "By using dynamic `import()` syntax.",
+      "B": "By separating component files into different folders.",
+      "C": "By deploying parts of the app on different servers.",
+      "D": "By using multiple `useState` hooks in a component."
+    }
+  },
+  {
+    "name": "What is a common use case for using the `useEffect` hook with an empty dependency array?",
+    "correctOption": "C",
+    "options": {
+      "A": "To run an effect only when a component unmounts.",
+      "B": "To create a continuous polling effect.",
+      "C": "To mimic the behavior of `componentDidMount` in functional components.",
+      "D": "To listen for changes in the component's state."
+    }
+  }
+]
